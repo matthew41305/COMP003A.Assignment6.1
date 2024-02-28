@@ -3,7 +3,7 @@
  * Class: COMP003A
  * Purpose: Code for Object-Oriented Programming Concepts Week 6
  */
-namespace COMP003A.Assignment6_1
+namespace COMP003A.Assignment6
 {
     internal class Program
     {

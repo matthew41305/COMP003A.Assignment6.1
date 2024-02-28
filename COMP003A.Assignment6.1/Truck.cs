@@ -1,4 +1,4 @@
-﻿namespace COMP003A.Assignment6_1
+﻿namespace COMP003A.Assignment6
 {
     /// <summary>
     /// Truck extends the Vehicle Class
@@ -20,7 +20,7 @@
         /// <param name="sizeOfTruckBed"></param>
         public Truck(string truckBrand, string truckModel, int truckNumberOfWheels, double sizeOfTruckBed) : base(truckBrand, truckModel, truckNumberOfWheels)
         {
-            sizeOfTruckBed = sizeOfTruckBed;
+            SizeOfTruckBed = sizeOfTruckBed;
         }
 
 
@@ -39,9 +39,9 @@
         /// </summary>
         public override void GetInfo()
         {
-            Console.WriteLine($"I'm a {nameof(Truck)}.")
+            Console.WriteLine($"I'm a {nameof(Truck)}.");
             base.GetInfo();
-            Console.WriteLine($"I also have a {SizeOfTruckBed} ft truck bed")
+            Console.WriteLine($"I also have a {SizeOfTruckBed} ft truck bed");
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace COMP003A.Assignment6_1
+﻿namespace COMP003A.Assignment6
 {
     /// <summary>
     /// Interfaces are contracts that inheriting class has to implement. 

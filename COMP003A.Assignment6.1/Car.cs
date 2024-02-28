@@ -1,4 +1,4 @@
-﻿namespace COMP003A.Assignment6_1
+﻿namespace COMP003A.Assignment6
 {
     /// <summary>
     /// Car extends the Vehicle class

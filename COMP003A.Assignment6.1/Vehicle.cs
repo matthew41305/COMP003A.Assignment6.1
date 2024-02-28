@@ -1,4 +1,4 @@
-﻿namespace COMP003A.Assignment6_1
+﻿namespace COMP003A.Assignment6
 {
     /// <summary>
     /// Abstracts describe a contract but does not provide a full implementation of the conract.
@@ -60,7 +60,7 @@
         /// </summary>
         public int NumberOfWheels
         {
-            get { return _numberOfWheels }
+            get { return _numberOfWheels; }
             set { _numberOfWheels = value; }
         }
 
